@@ -1,0 +1,268 @@
+*{
+  box-sizing: border-box;
+}
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+body{
+  width: 80rem;
+  margin: .5rem auto;
+}
+header{
+height: 50px;
+background: black;
+}
+.border{
+  height: 50px;
+  border-right: .05rem solid white;
+}
+nav img{
+  width: 5rem;
+  padding: 1rem 0rem 0rem 1rem;
+
+}
+.border2{
+  padding: 1rem 0rem 0rem .5rem;
+}
+nav *{
+  width: 10%;
+  display: block;
+  float: left;
+  color:white;
+  text-decoration: none;
+
+}
+.container{
+  padding: 1rem 0rem 0rem .5rem;
+  height: 500px;
+
+}
+.border3{
+width: 60%;
+}
+nav li a{
+  height: 50px;
+  border-left: .05rem solid white;
+  padding: 1rem 0rem 0rem .5rem;
+
+}
+
+nav form{
+  padding: 1rem 0rem 0rem 0rem;
+  width:20%;
+  float: right;
+
+}
+nav form input{
+  width:80%;
+  color:black;
+}
+.container{
+  width: 50%;
+  float: left;
+  height: 500px;
+}
+  .pineapple {
+  position: relative;
+
+
+}
+
+.container img{
+  width: 100%;
+  filter:brightness(75%);
+  padding-right: 1rem;
+}
+.h1 {
+  position: absolute;
+  bottom:4rem;
+  left:1rem;
+  color:white;
+  font-size: 2rem;
+}
+
+.p {
+  position: absolute;
+  bottom:3rem;
+  left: 1rem;
+  color: white;
+}
+.span{
+  position: absolute;
+  bottom:2rem;
+  left: 1rem;
+  border-left: .05rem solid red;
+  padding-left: .5rem;
+  color: white;
+}
+
+.tropical,.coconut,.flake,.online,.culture{
+  width: 50%;
+  height: 185px;
+  position: relative;
+  float: left;
+}
+
+.tropical{
+  padding-top: 1.5rem;
+}
+
+
+.tropical img{
+  filter:brightness(75%);
+}
+.date{
+padding-left: 28rem;
+}
+
+.one{
+  padding-top: 4rem;
+  position: absolute;
+  top:.5rem;
+  width: 80%;
+  padding-left: .5rem;
+  color: white;
+}
+
+ .canada{
+  position: absolute;
+  left: .5rem;
+  bottom: 2.0rem;
+  border-left: .05rem solid green;
+  padding-left: .5rem;
+  color: white;
+  font-size: small;
+}
+
+.two{
+  position: absolute;
+  top:4rem;
+  width: 80%;
+  padding-left: .5rem;
+  color: white;
+}
+.span2{
+  position: absolute;
+  left: .5rem;
+  bottom: 2.5rem;
+  border-left: .05rem solid red;
+  padding-left: .5rem;
+  color: white;
+  font-size: small;
+}
+.three{
+  position: absolute;
+  top:5rem;
+  width: 80%;
+  padding-left: .5rem;
+  color: white;
+}
+.span3{
+  position: absolute;
+  left: .5rem;
+  bottom: 2.5rem;
+  border-left: .05rem solid green;
+  padding-left: .5rem;
+  color: white;
+  font-size: small;
+}
+.four{
+  position: absolute;
+  top:5rem;
+  width: 80%;
+  padding-left: .5rem;
+  color: white;
+}
+.span4{
+  position: absolute;
+  left: .5rem;
+  bottom: 1.5rem;
+  border-left: .05rem solid red;
+  padding-left: .5rem;
+  color: white;
+  font-size: small;
+}
+.pinacolada{
+  width: 100%;
+  float: left;
+
+}
+
+.news {
+color: black;
+padding-left: .5rem;
+border-left:  .05rem solid red;
+text-decoration: none;
+
+}
+.news h3{
+  border-left: .05rem solid red;
+
+}
+.new{
+  text-decoration: none;
+  display: block;
+}
+
+.sweet a,.sour a,.hair a{
+  color:gray;
+  text-decoration: none;
+  display: block;
+  border-left: .05rem solid red;
+  padding-left: .5rem;
+}
+.sweet,.sour,.hair{
+  width: 33.333%;
+  float: left;
+}
+.sweet p, .sour p, .hair p{
+  width: 25rem;
+}
+@media (min-width:400px) and (max-width: 600px){
+
+   header{
+    width:50%
+  }
+
+  section .pineapple{
+    width: 100%;
+  }
+  .container h2{
+    display: none;
+  }
+  .coconut,.flake,.online,.culture{
+    width: 40%;
+    color: black;
+
+  }
+  .tropical{
+    width:
+  }
+   .tropical img{
+    display:none;
+  }
+  .tropical h3{
+    display: none;
+  }
+  .tropical h1{
+    color: black;
+    width: 100%;
+    float: none;
+
+  }
+  .pinacolada img{
+    display: none;
+  }
+  .sweet,.sour,.hair{
+    width:100%;
+  }
+}
